@@ -145,7 +145,21 @@
     color: #1500FF
 }
 
+.button-chat-wrapper {
+	display: flex;
+	justify-content: end;
+}
+
+.button-chat {
+	position: fixed;
+	bottom: 50px;
+	padding: 26px 22px 18px;
+    border-radius: 50%;
+}
+
 .header {
+	position: sticky;
+	top: 0;
 	padding: 40px 0;
 	background-color: #F9F9FF;
 	line-height: 1;
