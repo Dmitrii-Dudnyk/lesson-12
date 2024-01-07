@@ -161,11 +161,21 @@
 	background-color: var(--primary-color);
 	border: none;
     border-radius: 60px;
+	cursor: pointer;
+}
+
+.button-chat:hover {
+    background-color: #5F5C7F;
+}
+
+.button-chat:active {
+    background-color: #A4A2C4;
 }
 
 .button-chat__icon {
+	max-width: 100%;
 	width: 56px;
-	height: 56px;
+	height: auto;
 	color: #fff;
 	fill: currentColor;
 }
